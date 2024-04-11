@@ -6,19 +6,19 @@ Books
 Suggested Topics
 
 1. Quantum algorithms - including QFT, Grover's , Shor's
-   https://nvidia.github.io/cuda-quantum/latest/examples/python/tutorials/noisy_simulations.html#
+   <code> https://nvidia.github.io/cuda-quantum/latest/examples/python/tutorials/noisy_simulations.html# <\code>
    Preskill's book, page - 231
 
 2. Density Matrices
-   Preskill's book: https://www.lorentz.leidenuniv.nl/quantumcomputers/literature/preskill_1_to_6.pdf \
+   Preskill's book: <code> https://www.lorentz.leidenuniv.nl/quantumcomputers/literature/preskill_1_to_6.pdf <\code>
    Preskill's book, page - 49
 
 4. Noise Modeling
    Preskill's book, sec 3.4 on the three quantum channels (page 104) \
-   Additional reference: https://aws.amazon.com/blogs/quantum-computing/noise-in-quantum-computing/
+   Additional reference: <code> https://aws.amazon.com/blogs/quantum-computing/noise-in-quantum-computing/ <\code>
    
    CUDA-Q examples for noisy simulation
-   https://nvidia.github.io/cuda-quantum/latest/examples/python/tutorials/noisy_simulations.html#
+   <code> https://nvidia.github.io/cuda-quantum/latest/examples/python/tutorials/noisy_simulations.html# <\code>
 
 Suggested exercises
 
