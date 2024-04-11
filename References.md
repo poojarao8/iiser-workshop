@@ -10,12 +10,11 @@ Suggested Topics
    Preskill's book, page - 231
 
 2. Density Matrices
-   Preskill's book: https://www.lorentz.leidenuniv.nl/quantumcomputers/literature/preskill_1_to_6.pdf
-   
+   Preskill's book: https://www.lorentz.leidenuniv.nl/quantumcomputers/literature/preskill_1_to_6.pdf \
    Preskill's book, page - 49
 
 4. Noise Modeling
-   Preskill's book, sec 3.4 on the three quantum channels (page 104) 
+   Preskill's book, sec 3.4 on the three quantum channels (page 104) \
    Additional reference: https://aws.amazon.com/blogs/quantum-computing/noise-in-quantum-computing/
    
    CUDA-Q examples for noisy simulation
