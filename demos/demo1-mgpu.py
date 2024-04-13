@@ -1,9 +1,9 @@
-# To run as a script, use python <fname> --target nvidia
+# To run as a script, use mpirun -np 4 python <fname> --target nvidia-mgpu
 import cudaq
 
-qubit_count = 30
+qubit_count = 33
 
-cudaq.set_target("nvidia") # activates the single-gpu backend
+cudaq.set_target("nvidia-mgpu") # activates the single-gpu backend
 
 @cudaq.kernel
 def kernel(qubit_count: int):
