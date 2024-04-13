@@ -1,15 +1,11 @@
-# Parallelize over the various kernels one would like to execute.
+# To run as a script, use 
+# mpirun -np 2 python <fname> --target nvidia-mqpu
 
 import cudaq
 
 qubit_count = 2
 
-# Set the simulation target.
-cudaq.set_target("nvidia-mqpu")
-
 # Kernel 1
-
-
 @cudaq.kernel
 def kernel_1(qubit_count: int):
     qvector = cudaq.qvector(qubit_count)
@@ -25,8 +21,6 @@ def kernel_1(qubit_count: int):
 
 
 # Kernel 2
-
-
 @cudaq.kernel
 def kernel_2(qubit_count: int):
     qvector = cudaq.qvector(qubit_count)
